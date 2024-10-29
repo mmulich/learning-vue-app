@@ -20,7 +20,7 @@
           width="200"
         />
       </template>
-      <template #main="{ item, price }">
+      <template #main="{ item }">
         <div class="list-layout__item__name">{{ item.name }}</div>
         <div class="list-layout__item__description">{{ item.description }}</div>
         <div class="list-layout__item__price">{{ price }}</div>
