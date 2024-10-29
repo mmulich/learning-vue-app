@@ -39,7 +39,7 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "ProductItemList",
-  components: [ListLayout],
+  components: { ListLayout },
   data() {
     return {
       price: 100,
